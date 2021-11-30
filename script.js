@@ -22,7 +22,7 @@ $(document).ready(function () {
         if (currentTime > timeBlock) {
             $(this).children('input').addClass('past')
         }
-        else if (currentTime === timeBlock) {
+        else if (currentTime >= timeBlock) {
             $(this).children('input').addClass('present')
         }
         else {
@@ -116,11 +116,11 @@ $(document).ready(function () {
     $("#time10 .inputText").val(localStorage.getItem("time10"));
     $("#time11 .inputText").val(localStorage.getItem("time11"));
     $("#time12 .inputText").val(localStorage.getItem("time12"));
-    $("#time1 .inputText").val(localStorage.getItem("time1"));
-    $("#time2 .inputText").val(localStorage.getItem("time2"));
-    $("#time3 .inputText").val(localStorage.getItem("time3"));
-    $("#time4 .inputText").val(localStorage.getItem("time4"));
-    $("#time5 .inputText").val(localStorage.getItem("time5"));
+    $("#time13 .inputText").val(localStorage.getItem("time13"));
+    $("#time14 .inputText").val(localStorage.getItem("time14"));
+    $("#time15 .inputText").val(localStorage.getItem("time15"));
+    $("#time16 .inputText").val(localStorage.getItem("time16"));
+    $("#time17 .inputText").val(localStorage.getItem("time17"));
 })
 
 
