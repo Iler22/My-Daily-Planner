@@ -14,3 +14,4 @@ Finally a function was created to get the information saved in local storage and
 
 Please see screenshot of working html and link to live HTML.
 
+![2021-11-30](https://user-images.githubusercontent.com/89151536/144091194-85e368eb-c0ec-4799-9983-ee4e68b6756b.png)
